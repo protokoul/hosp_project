@@ -23,7 +23,8 @@ public class register extends javax.swing.JFrame {
     public register() {
         initComponents();
         setTitle("Registeration Form");
-        regIdTxt.setText(getRegistrationNumber()+"");
+        int number = getRegistrationNumber()+1;
+        regIdTxt.setText(number+"");
     }
 
     /**
